@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +8,22 @@
     <link rel="stylesheet" href="./styles.css">
     <link rel="icon" href="./images/logo.png">
 </head>
+
 <body>
     <header>
         <div class="container nav-container">
             <div class="logo">
                 <i class="fas fa-banana"><img src="./images/logo.png" alt="" width="70px"></i>
+                <span>Jamin Snacks</span>
             </div>
-            <nav>
+
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="overlay" id="overlay"></div>
+
+            <nav id="mainNav">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#products">Products</a></li>
@@ -29,7 +39,9 @@
         <div class="container">
             <h1>Jamin Snacks</h1>
             <h5 class="animate">Crispy, Crunchy Banana Chips</h5>
-            <p class="animate">Experience the perfect blend of natural sweetness and satisfying crunch with our premium banana chips. Made from carefully selected ripe bananas and cooked to perfection for that irresistible texture.</p>
+            <p class="animate">Experience the perfect blend of natural sweetness and satisfying crunch with our premium
+                banana chips. Made from carefully selected ripe bananas and cooked to perfection for that irresistible
+                texture.</p>
             <a href="#order" class="btn animate">Order Now & Get 20% Off</a>
         </div>
     </section>
@@ -48,7 +60,7 @@
                         <div class="price">$4.99 / 200g pack</div>
                     </div>
                 </div>
-                
+
                 <div class="product-card animate">
                     <div class="product-img">
                         <img src="./images/honey-glazed.jpg" alt="Honey Glazed Banana Chips">
@@ -59,7 +71,7 @@
                         <div class="price">$5.99 / 200g pack</div>
                     </div>
                 </div>
-                
+
                 <div class="product-card animate">
                     <div class="product-img">
                         <img src="./images/spicy.avif" alt="Spicy Banana Chips">
@@ -83,19 +95,19 @@
                     <h3>100% Natural</h3>
                     <p>Made from organic bananas with no artificial preservatives or colors.</p>
                 </div>
-                
+
                 <div class="benefit-card animate">
                     <i class="fas fa-heart"></i>
                     <h3>Healthy Snack</h3>
                     <p>Rich in potassium, fiber and vitamins. A guilt-free snack for any time of day.</p>
                 </div>
-                
+
                 <div class="benefit-card animate">
                     <i class="fas fa-award"></i>
                     <h3>Award Winning</h3>
                     <p>Recognized as the best banana chips in the 2025 Healthy Snacks Awards.</p>
                 </div>
-                
+
                 <div class="benefit-card animate">
                     <i class="fas fa-shipping-fast"></i>
                     <h3>Free Shipping</h3>
@@ -111,21 +123,24 @@
             <div class="testimonial-slider">
                 <div class="testimonial active">
                     <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Customer">
-                    <p>"These are the best banana chips I've ever tasted! Perfectly crispy and just the right amount of sweetness. I'm hooked!"</p>
+                    <p>"These are the best banana chips I've ever tasted! Perfectly crispy and just the right amount of
+                        sweetness. I'm hooked!"</p>
                     <h4>Sarah Johnson</h4>
                     <p>Regular Customer</p>
                 </div>
-                
+
                 <div class="testimonial">
                     <img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Customer">
-                    <p>"I ordered the spicy variety for my kids and they love it! Finally a healthy snack option that they actually enjoy."</p>
+                    <p>"I ordered the spicy variety for my kids and they love it! Finally a healthy snack option that
+                        they actually enjoy."</p>
                     <h4>Michael Chen</h4>
                     <p>Happy Parent</p>
                 </div>
-                
+
                 <div class="testimonial">
                     <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Customer">
-                    <p>"As a fitness enthusiast, I'm always looking for healthy snacks. These banana chips are now my go-to post-workout treat!"</p>
+                    <p>"As a fitness enthusiast, I'm always looking for healthy snacks. These banana chips are now my
+                        go-to post-workout treat!"</p>
                     <h4>Jessica Miller</h4>
                     <p>Fitness Blogger</p>
                 </div>
@@ -136,7 +151,8 @@
     <section class="cta-section" id="order">
         <div class="container">
             <h2 class="animate">Ready to Taste the Crunch?</h2>
-            <p class="animate">Join thousands of satisfied customers who've made our banana chips their favorite snack. Order now and get 20% off your first purchase!</p>
+            <p class="animate">Join thousands of satisfied customers who've made our banana chips their favorite snack.
+                Order now and get 20% off your first purchase!</p>
             <a href="#order" class="btn animate">Order Now & Save 20%</a>
         </div>
     </section>
@@ -146,7 +162,8 @@
             <div class="footer-content">
                 <div class="footer-column">
                     <h3>Jamin Snacks</h3>
-                    <p>Making the world a crispier place, one banana chip at a time. Quality, taste, and health in every bite.</p>
+                    <p>Making the world a crispier place, one banana chip at a time. Quality, taste, and health in every
+                        bite.</p>
                     <div class="social-icons">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
@@ -154,7 +171,7 @@
                         <a href="#"><i class="fab fa-pinterest"></i></a>
                     </div>
                 </div>
-                
+
                 <div class="footer-column">
                     <h3>Quick Links</h3>
                     <ul>
@@ -165,7 +182,7 @@
                         <li><a href="#order">Order Now</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-column">
                     <h3>Contact Us</h3>
                     <ul>
@@ -175,94 +192,14 @@
                     </ul>
                 </div>
             </div>
-            
+
             <div class="copyright">
                 <p>&copy; 2025 Jamin Snacks. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <script>
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('nav a').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href');
-                const targetSection = document.querySelector(targetId);
-                
-                window.scrollTo({
-                    top: targetSection.offsetTop - 80,
-                    behavior: 'smooth'
-                });
-            });
-        });
-        
-        // Testimonial slider
-        const testimonials = document.querySelectorAll('.testimonial');
-        let currentTestimonial = 0;
-        
-        function showNextTestimonial() {
-            testimonials[currentTestimonial].classList.remove('active');
-            currentTestimonial = (currentTestimonial + 1) % testimonials.length;
-            testimonials[currentTestimonial].classList.add('active');
-        }
-        
-        // Change testimonial every 5 seconds
-        setInterval(showNextTestimonial, 5000);
-        
-        // Add animation on scroll
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-        
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate');
-                }
-            });
-        }, observerOptions);
-        
-        // Observe elements that should animate on scroll
-        document.querySelectorAll('.product-card, .benefit-card, .cta-section h2, .cta-section p, .cta-section .btn').forEach(el => {
-            observer.observe(el);
-        });
-        
-        // Highlight active nav link on scroll
-        const sections = document.querySelectorAll('section');
-        const navLinks = document.querySelectorAll('nav ul li a');
-        
-        window.addEventListener('scroll', () => {
-            let current = '';
-            
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                const sectionHeight = section.clientHeight;
-                if (scrollY >= (sectionTop - 100)) {
-                    current = section.getAttribute('id');
-                }
-            });
-            
-            navLinks.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href') === `#${current}`) {
-                    link.classList.add('active');
-                }
-            });
-        });
-        
-        // Simple order button alert
-        document.querySelectorAll('.btn').forEach(button => {
-            if (button.textContent.includes('Add to Cart') || button.textContent.includes('Order Now')) {
-                button.addEventListener('click', function(e) {
-                    if (this.getAttribute('href') === '#order') {
-                        e.preventDefault();
-                        alert('Thank you for your interest! In a real website, this would redirect to a checkout page.\n\nSpecial Offer: Get 20% off your first order with code: BANANA20');
-                    }
-                });
-            }
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
+
 </html>
